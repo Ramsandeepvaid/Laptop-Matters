@@ -207,8 +207,8 @@ export default function CreateListing() {
               <input 
                 type='number' 
                 id='bedrooms' 
-                min='1' 
-                max='10' 
+                min='2' 
+                max='64' 
                 required 
                 className='p-3 border border-gray-300 rounded-lg' 
                 onChange={handleChange} 
@@ -220,8 +220,8 @@ export default function CreateListing() {
               <input 
                 type='number' 
                 id='bathrooms' 
-                min='1' 
-                max='10' 
+                min='4' 
+                max='512' 
                 required 
                 className='p-3 border border-gray-300 rounded-lg' 
                 onChange={handleChange} 
